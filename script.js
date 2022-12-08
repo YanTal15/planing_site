@@ -148,7 +148,6 @@ let cloudNum = 50
 
 let height = Math.max(document.documentElement.scrollHeight, document.documentElement.clientHeight)/10
 let width = Math.max(document.documentElement.scrollWidth, document.documentElement.clientWidth)/10
-console.log(width)
 for(i = 0; i < cloudNum; i++){
   let cloud = document.createElement('div')
   cloud.classList.add('cloud')
@@ -156,8 +155,6 @@ for(i = 0; i < cloudNum; i++){
   let cloudHeight = cloudWidth / 2
   let cloudTop = Math.random() * height
   let cloudLeft = Math.random() * width
-  
-  console.log(cloudTop)
   cloud.style.width = cloudWidth + 'rem'
   cloud.style.height = cloudHeight + 'rem'
   cloud.style.top = cloudTop + 'rem'
