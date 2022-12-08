@@ -5,6 +5,20 @@ body {
     font-weight: normal;
     overflow-x: hidden;
 }
+.cloud{
+    background-color: rgba(255, 255, 255);
+    opacity: 0.5;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    position: absolute;
+    z-index: 1;
+}
+div>div{
+    z-index: 100; 
+}
+
+.btn{
+    z-index: 300;
+}
 /* Навигация */
 nav{
     min-height: 8rem;
